@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Correo</string>
+    <string name="correo2">Correo:</string>
+    <string name="descripcion">Descripción Contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="fechaNac">Fecha de nacimiento:</string>
+    <string name="confdat">Confirmar Datos</string>
+    <string name="tel">Tel:</string>
+    <string name="descripcion2">Descripción:</string>
+    <string name="editardatos">Editar Datos</string>
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="mayo">Mayo</string>
+    <string name="junio">Junio</string>
+    <string name="julio">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="septiembre">Septiembre</string>
+    <string name="octubre">Octubre</string>
+    <string name="noviembre">Noviembre</string>
+    <string name="diciembre">Diciembre</string>
+
+</resources>

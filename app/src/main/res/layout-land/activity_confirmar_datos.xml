@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rsc.formulario.ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvConfDat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confdat"
+        android:textSize="@dimen/conf_dat_text"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:theme="@style/FechaNac"
+        />
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Completo"
+        android:textSize="@dimen/datos_text"
+        android:layout_below="@id/tvConfDat"
+        android:paddingTop="@dimen/conf_dat_text"/>
+
+    <TextView
+    android:id="@+id/tvFechaNac"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/fechaNac"
+    android:textSize="@dimen/datos_text"
+    android:layout_below="@id/tvNombre"
+    android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:id="@+id/tvSpinFecNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18-Agosto-1984"
+        android:textSize="@dimen/datos_text"
+        android:layout_toRightOf="@id/tvFechaNac"
+        android:layout_below="@id/tvNombre"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel"
+        android:textSize="@dimen/datos_text"
+        android:layout_below="@id/tvFechaNac"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:id="@+id/tvNumTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5566778899"
+        android:textSize="@dimen/datos_text"
+        android:layout_toRightOf="@id/tvTelefono"
+        android:layout_below="@id/tvFechaNac"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correo2"
+        android:textSize="@dimen/datos_text"
+        android:layout_below="@id/tvTelefono"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:id="@+id/tvCorreo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ruensanco@hotmail.com"
+        android:textSize="@dimen/datos_text"
+        android:layout_toRightOf="@id/tvCorreo"
+        android:layout_below="@id/tvNumTel"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion2"
+        android:textSize="@dimen/datos_text"
+        android:layout_below="@id/tvCorreo"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caracteristicas"
+        android:textSize="@dimen/datos_text"
+        android:layout_toRightOf="@id/tvDescripcion"
+        android:layout_below="@id/tvCorreo2"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editardatos"
+        android:textAllCaps="false"
+        android:theme="@style/BotonSiguiente"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/tvConfDat"
+        android:layout_alignEnd="@+id/tvConfDat"
+        android:layout_marginRight="71dp"
+        android:layout_marginEnd="71dp" />
+
+</RelativeLayout>
